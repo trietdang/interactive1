@@ -1,0 +1,565 @@
+body {
+    background-image: url("http://i.giphy.com/3xz2BLHPfdkbJXniM0.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+* {
+  margin: px;
+  padding: 0px;
+}
+
+p {
+  font-family: helvetica;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Telegrafico', sans-serif;
+}
+
+h1 {
+  margin: 0px;
+  margin: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+#pokebutton {
+  color: blue;
+  text-align: center;
+  font-size: 46px;
+}
+
+#facebook {
+  color: black;
+  text-align: center;
+  font-size: 36px;
+}
+
+#poke {
+  font-size: 24px;
+  font-color: white;
+  width: 500px;
+  padding: 80px;
+  margin-left: 30px;
+  border: 2px solid blue;
+  text-align: left;
+  background-color: white;
+}
+
+#exp1 {
+  font-size: 24px;
+  font-color: black;
+  border: 2px solid blue;
+  width: 500px;
+  height: 495px;
+  padding:80px;
+  margin-left: 700px;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  overflow: scroll;
+}
+
+.girl1 img {
+  width: 100px;
+}
+.girl1 p {
+  opacity: 0;
+}
+
+.girl1:hover p {
+  opacity: 1;
+  color: #ff00ff;
+}
+
+.conversation1 {
+  position: absolute;
+  text-align: left;
+  width: 80px;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+
+.profile1 {
+  position: absolute;
+  text-align: left;
+  width: 50px;
+}
+
+.conversation2a {
+  margin-top: 90px;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 340px;
+}
+
+.conversation2 {
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 330px;
+  margin-top: 45px;
+}
+
+
+
+.profile2 {
+  position: absolute;
+  text-align: left;
+  width: 60px;
+  margin-left: 450px;
+  margin-top: 45px;
+}
+
+.profile3 {
+  position: absolute;
+  text-align: left;
+  width: 50px;
+  margin-top: 130px;
+}
+
+.conversation3 {
+  position: absolute;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 130px;
+}
+
+.profile4 {
+  position: absolute;
+  text-align: left;
+  width: 60px;
+  margin-left: 450px;
+  margin-top: 220px;
+}
+
+.conversation4 {
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 290px;
+  margin-top: 220px;
+}
+
+
+.profile5 {
+  position: absolute;
+  text-align: left;
+  width: 50px;
+  margin-top: 290px;
+}
+
+.conversation5 {
+  position: absolute;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 290px;
+}
+
+.profile6 {
+  position: absolute;
+  text-align: left;
+  width: 60px;
+  margin-left: 450px;
+  margin-top: 380px;
+}
+
+.conversation6 {
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 290px;
+  margin-top: 380px;
+}
+
+
+.profile7 {
+  position: absolute;
+  text-align: left;
+  width: 60px;
+  margin-top: 460px;
+}
+
+.conversation7 {
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-top: 460px;
+}
+
+
+.profile8 {
+  position: absolute;
+  text-align: left;
+  width: 50px;
+  margin-left: 450px;
+  margin-top: 550px;
+}
+
+.conversation8 {
+  position: absolute;
+  text-align: left;
+  margin-left: 290px;
+  margin-top: 550px;
+}
+
+.profile9 {
+  position: absolute;
+  text-align: left;
+  width: 60px;
+  margin-top: 640px;
+}
+
+.conversation9 {
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-top: 640px;
+}
+
+.profile10 {
+  position: absolute;
+  text-align: left;
+  width: 50px;
+  margin-left: 450px;
+  margin-top: 720px;
+}
+
+.conversation10 {
+  position: absolute;
+  text-align: left;
+  margin-left: 290px;
+  margin-top: 720px;
+}
+
+#exp2 {
+  height: 800px;
+  font-size: 24px;
+  font-color: black;
+  border: 2px solid blue;
+  width: 500px;
+  padding:80px;
+  margin-left: 700px;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  overflow: scroll;
+}
+
+/*
+
+.girl2:hover {
+  display: block;
+  height: 100px;
+  background: red;
+}
+
+*/
+
+
+.girl2 img {
+  width: 100px;
+}
+.girl2 p {
+  opacity: 0;
+}
+
+.girl2:hover p {
+  opacity: 1;
+  color: #ff00ff;
+}
+
+
+.conversation3b {
+  width: 120px;
+  position: absolute;
+  text-align: left;
+  margin-left: 60px;
+  margin-top: 130px;
+}
+
+.conversation4b {
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 420px;
+  margin-top: 220px;
+}
+
+.conversation5 {
+  width: 120px;
+  position: absolute;
+  text-align: left;
+  margin-left: 70px;
+  margin-top: 290px;
+}
+
+.conversation7b {
+  width: 70px;
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-top: 460px;
+}
+
+.conversation9b {
+  width: 80px;
+  font-family: helvetica;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 70px;
+  margin-right: 1000px;
+  margin-top: 640px;
+}
+
+.image2 {
+  align-items: center;
+  margin-top: 900px;
+}
+
+.dot {
+  margin-top: 800px;
+  text-align: center;
+}
+
+.marquee111 {
+  position: absolute;
+  left: 150px;
+  top: 1000px;
+  float: left;
+  margin-right: -1000px;
+}
+
+.marquee111 img {
+  width: 80px;
+}
+
+.marquee{
+  position:absolute;
+  left:100px;
+  top: 330px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  margin-right: -1300px;
+  position: fixed;
+}
+
+.marquee2{
+  position:absolute;
+  left:100px;
+  top: 350px;
+  color: red;
+  float: left;
+  font-size: 100px;
+  margin-right: -1300px;
+  position: fixed;
+}
+
+
+
+.poke1 {
+  text-align: left;
+}
+
+.poke2 {
+  text-align: center;
+}
+
+.poke3 {
+  text-align: right;
+}
+
+.poke4 {
+  text-align: center;
+}
+.poke5 {
+  text-align: left;
+}
+
+.poke6 {
+  text-align: center;
+}
+
+.poke7 {
+  text-align: right;
+}
+
+.poke8 {
+  text-align: center;
+}
+.poke9 {
+  text-align: left;
+}
+
+.poke10 {
+  text-align: center;
+}
+
+
+
+#secondpoke {
+  font-size: 24px
+  font-color: white;
+  width: 500px;
+  padding: 80px;
+  margin-left: 30px;
+  border: 2px solid blue;
+  text-align: center;
+  background-color: white;
+}
+
+.spoke1 {
+  position: relative;
+  margin-left: 220px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke2 {
+  position: relative;
+  margin-left: 110px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke3 {
+  text-align: center;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke4 {
+  position: relative;
+  margin-left: 110px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke5 {
+  position: relative;
+  margin-left: 220px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke6 {
+  position: relative;
+  margin-left: 330px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke7 {
+  position: relative;
+  margin-left: 440px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke8 {
+  position: relative;
+  margin-left: 330px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke9 {
+  position: relative;
+  margin-left: 220px;
+  width: 60px;
+  height: 60px;
+}
+
+.spoke10 {
+  position: relative;
+  margin-left: 110px;
+  width: 60px;
+  height: 60px;
+}
+
+
+#exp3 {
+  height: 680px;
+  font-size: 24px;
+  font-color: black;
+  border: 2px solid blue;
+  width: 500px;
+  padding:80px;
+  margin-left: 700px;
+  text-align: center;
+  background-color: white;
+  position: absolute;
+  overflow: scroll;
+}
+
+#lastpoke {
+  font-size: 24px
+  font-color: white;
+  width: 500px;
+  padding: 80px;
+  margin-left: 30px;
+  border: 2px solid blue;
+  text-align: center;
+  background-color: white;
+}
+
+.lpoke1 {
+  text-align: left;
+}
+
+.lpoke2 {
+  text-align: center;
+}
+
+.lpoke3 {
+  text-align: right;
+}
+
+.lpoke4 {
+  text-align: center;
+}
+
+.lpoke5 {
+  text-align: left;
+}
+
+.lpoke6 {
+  text-align: center;
+}
+
+.lpoke7 {
+  text-align: right;
+}
+
+.lpoke8 {
+  text-align: center;
+}
+
+.lpoke9 {
+  text-align: left;
+}
+
+.lpoke10 {
+  text-align: center;
+}
+

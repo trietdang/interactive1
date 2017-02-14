@@ -1,0 +1,37 @@
+<style>
+body {
+    background-image: url("http://68.media.tumblr.com/2423190428c488b0b32afcf0bff5d76c/tumblr_ochtev92QJ1r61tleo1_1280.gif");
+  background-size: cover;
+}
+h1{
+  font-family: 'Telegrafico', sans-serif;
+  font-size: 24px;
+  margin: .2em .0em;
+  color: rgba(0,0,0, 0.3);
+}
+body {
+    height: 100%;
+}
+
+
+body {
+    color: white;
+}
+
+h1 {
+    color: Red;
+}
+
+p {
+    color: white;
+}
+
+div {
+    color: blue;
+}
+
+a {
+    color: yellow;
+}
+
+</style> 
