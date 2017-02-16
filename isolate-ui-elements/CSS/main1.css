@@ -1,10 +1,174 @@
 body {
-    background-image: url("http://i.giphy.com/3xz2BLHPfdkbJXniM0.gif");
+    /*background-image: url("http://i.giphy.com/3xz2BLHPfdkbJXniM0.gif");*/
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center; 
+    background: linear-gradient(to bottom, rgb(39,34,173) 0%,rgb(102,40,201) 34%,rgb(152,56,255) 68%,rgb(244,34,139) 100%); /* FF3.6-15 */
+    display: block;
 }
+
+.symbol1 img {
+  width: 60px;
+  margin-left: 320px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+.symbol2 img {
+  width: 60px;
+  margin-left: 1050px;
+  margin-top: 10px;
+  position: absolute;
+}
+
+}
+
+.symbol1 {
+  width: 30px;
+  top: 10%;
+  left: 30%;
+}
+
+.content {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 35px;
+  line-height: 40px;
+  font-family: 'Lato', sans-serif;
+  color: #ecf0f1;
+  height: 160px;
+  overflow: hidden;
+}
+
+.visible {
+  font-weight: 600;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 40px;
+}
+.visible:before {
+  content: '[';
+  left: 0;
+  line-height: 40px;
+}
+.visible:after {
+  content: ']';
+  position: absolute;
+  right: 0;
+  line-height: 40px;
+}
+.visible:after, .visible:before {
+  position: absolute;
+  top: 0;
+  color: #16a085;
+  font-size: 42px;
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+p {
+  display: inline;
+  float: left;
+  margin: 0;
+}
+
+ul {
+  margin-top: 0;
+  padding-left: 110px;
+  text-align: left;
+  list-style: none;
+  -webkit-animation-name: change;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: change;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+
+ul li {
+  line-height: 40px;
+  margin: 0;
+}
+
+@-webkit-keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes change {
+  0%, 12%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  17%,29% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  34%,46% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  51%,63% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  68%,80% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  85%,97% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+}
+@keyframes opacity {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes change {
+  0%, 12%, 100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  17%,29% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  34%,46% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  51%,63% {
+    -webkit-transform: translateY(-75%);
+            transform: translateY(-75%);
+  }
+  68%,80% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  85%,97% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+}
+
+
+
 * {
   margin: px;
   padding: 0px;
@@ -29,15 +193,26 @@ img {
   height: auto;
 }
 
+/*#question {
+  color: white;
+  text-align: center;
+  font-size: 24px;
+}*/
 
 #pokebutton {
-  color: blue;
+  color: white;
   text-align: center;
   font-size: 46px;
+      opacity: 1;
+    transition: all 2.5s ease;
+    transition-property: all;
+    transition-duration: 2.5s;
+    transition-timing-function: ease;
+    transition-delay: initial;
 }
 
 #facebook {
-  color: black;
+  color: white;
   text-align: center;
   font-size: 36px;
 }
@@ -48,23 +223,42 @@ img {
   width: 500px;
   padding: 80px;
   margin-left: 30px;
-  border: 2px solid blue;
-  text-align: left;
+/*  border: 5px solid blue;*/
+  text-align: center;
   background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+  display: block;
 }
+
+
+
+  /*margin-top: 13px;
+  font-size: 24px
+  font-color: white;
+  width: 500px;
+  padding: 80px;
+  margin-left: 30px;
+  border: 5px solid blue;
+  text-align: center;
+  background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);*/
 
 #exp1 {
   font-size: 24px;
   font-color: black;
-  border: 2px solid blue;
+  border: 5px solid linear-gradient(to bottom, rgb(244,34,139) 0%,rgb(152,56,255) 51%,rgb(47,42,211) 97%);/*#FF00DB*/;
   width: 500px;
-  height: 495px;
+  height: 493px;
   padding:80px;
   margin-left: 700px;
   text-align: center;
   background-color: white;
   position: absolute;
   overflow: scroll;
+  opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .girl1 img {
@@ -98,7 +292,7 @@ img {
   position: absolute;
   text-align: left;
   font-size: 16px;
-  margin-left: 340px;
+  margin-left: 290px;
 }
 
 .conversation2 {
@@ -106,7 +300,7 @@ img {
   position: absolute;
   text-align: left;
   font-size: 16px;
-  margin-left: 330px;
+  margin-left: 290px;
   margin-top: 45px;
 }
 
@@ -248,10 +442,11 @@ img {
 }
 
 #exp2 {
-  height: 800px;
+  margin-top: 24px;
+  height: 692px;
   font-size: 24px;
   font-color: black;
-  border: 2px solid blue;
+  border: 5px linear-gradient(to bottom, rgb(244,34,139) 0%,rgb(152,56,255) 51%,rgb(47,42,211) 97%);/*solid blue*/;
   width: 500px;
   padding:80px;
   margin-left: 700px;
@@ -259,6 +454,8 @@ img {
   background-color: white;
   position: absolute;
   overflow: scroll;
+   opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 /*
@@ -418,14 +615,16 @@ img {
 
 
 #secondpoke {
-  font-size: 24px
+  font-size: 24px;
   font-color: white;
   width: 500px;
   padding: 80px;
   margin-left: 30px;
-  border: 2px solid blue;
+ /* border: 5px solid blue;*/
   text-align: center;
   background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .spoke1 {
@@ -499,10 +698,11 @@ img {
 
 
 #exp3 {
-  height: 680px;
+  margin-top: 25px;
+  height: 683px;
   font-size: 24px;
   font-color: black;
-  border: 2px solid blue;
+  border: 5px linear-gradient(to bottom, rgb(244,34,139) 0%,rgb(152,56,255) 51%,rgb(47,42,211) 97%);/*solid blue*/;
   width: 500px;
   padding:80px;
   margin-left: 700px;
@@ -510,17 +710,46 @@ img {
   background-color: white;
   position: absolute;
   overflow: scroll;
+   opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
+
+.conversation3a {
+  margin-top: 45px;
+  position: absolute;
+  text-align: left;
+  font-size: 16px;
+  margin-left: 290px;
+}
+
+.girl3 img {
+  width: 100px;
+}
+.girl3 p {
+  opacity: 0;
+}
+
+.girl3:hover p {
+  opacity: 1;
+  color: #ff00ff;
+}
+
+
+
+
 #lastpoke {
-  font-size: 24px
+  margin-top: 13px;
+  font-size: 24px;
   font-color: white;
   width: 500px;
   padding: 80px;
   margin-left: 30px;
-  border: 2px solid blue;
+  /*border: 5px solid blue;*/
   text-align: center;
   background-color: white;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
 }
 
 .lpoke1 {
