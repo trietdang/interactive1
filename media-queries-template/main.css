@@ -1,0 +1,90 @@
+* { margin: 0px; padding: 0px; }
+
+body {
+		background: orange;
+    background-image: url(img/11.png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+    background-position: center center;
+    position: relative;
+}
+
+#desktop{
+	opacity: 1;
+	color: black;
+	height: 100vh;
+	line-height: 100vh;
+	text-align: center;
+	font-family: Helvetica, serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 6px;
+	position: absolute;
+	width: 100vw;
+
+}
+
+#tablet, #mobile {
+	opacity: 0;
+}
+
+/* iPad */
+@media (min-width: 668px) and (max-width: 1024px) { 
+	body {
+	background: blue;
+    background-image: url(img/11.png);
+    background-size: 400px;
+    /*background-size: contain;*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+	}
+
+	#tablet{
+		opacity: 1;
+		height: 100vh;
+		line-height: 100vh;
+		text-align: center;
+		font-family: Helvetica, serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 34px;
+		position: absolute;
+		width: 100vw;
+	}
+
+	#desktop, #mobile {
+		opacity: 0;
+	}
+
+}
+
+/* iPhone 6*/
+@media (min-width: 375px) and (max-width: 667px) { 
+	
+	body {
+	background: red;
+    background-image: url(img/11.png);
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+	}
+
+	#mobile{
+		opacity: 1;
+		height: 100vh;
+		line-height: 100vh;
+		text-align: center;
+		font-family: Helvetica, serif;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 250px;
+		width: 100vw;
+	}
+
+	#desktop, #tablet {
+		opacity: 0;
+	}
+}

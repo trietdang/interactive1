@@ -2,10 +2,9 @@ body {
     /*background-image: url("http://i.giphy.com/3xz2BLHPfdkbJXniM0.gif");*/
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center; 
     background: linear-gradient(to bottom, rgb(39,34,173) 0%,rgb(102,40,201) 34%,rgb(152,56,255) 68%,rgb(244,34,139) 100%); /* FF3.6-15 */
-    display: block;
+
 }
 
 .symbol1 img {
