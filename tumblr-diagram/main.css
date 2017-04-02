@@ -228,6 +228,7 @@ div:hover > .info {
     font-family: courier;
     width: 137px;
     left: 510px;
+    left: calc(50vw - 206px);
     text-align: -webkit-right;
     opacity: 0;
     transition: all 500ms ease;
