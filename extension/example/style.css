@@ -39,9 +39,15 @@
 }
 
 .fake-ui-1 img, .fake-ui-2 img {
-	height: 50%;
+	top: 100px;
+	height: 100%;
 	width: 100%;
 	height: auto;
+}
+
+.fake-ui-1 text, .fake-ui-2 text {
+	font-family: helvetica;
+	size: 20px;
 }
 
 .fake-sponsor-1 {
@@ -49,10 +55,20 @@
 	background-color: red;
 	position: absolute;
     width: 300px;
-    height: 251px;
+    height: 300px;
     bottom: 10px;
     z-index: 100;
     pointer-events: none;	
+}
+
+._cedato_root_container, .__cedato_content_container {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 0;
+    position: absolute;
+    background: #000;
+    z-index: 10001;
 }
 
 .attribution {
@@ -63,27 +79,64 @@
 	opacity: 0 !important;
 }
 
-.standalone-ad-container video, .standalone-ad-container img, .standalone-ad-container, .dockable_video_embed video, /*.post_container video*//*, .post_container img, .post_container video*/ {
+.standalone-ad-container video, .standalone-ad-container img, .standalone-ad-container /*.post_container video*//*, .post_container img, .post_container video*/ {
 	opacity: 0 !important;
 }
 
-.post_wrapper {
-	opacity: 0;
+.dockable_video_embed {
+	opacity: 0 !important;
 }
+
+.post_tags_inner {
+	opacity: 0 !important;
+}
+
+.sponsored_label {
+	opacity: 0 !important;
+}
+
+.post_header {
+	opacity: 0 !important;
+}
+
+.sponsored_post text {
+	opacity: 0 !important;
+}
+
+.post_media video {
+	opacity: 0 !important;
+}
+
+.post_wrapper video {
+	opacity: 0 !important;
+}
+/*.post_wrapper {
+	opacity: 0;
+}*/
 
 /*.post_media img, .post_media video {
 	background: url('https://trietdang.github.io/interactive1/extension/example/img/ads.JPG') !important;;
 }*/
 
 .standalone-ad-container {
-	background: url('https://trietdang.github.io/interactive1/extension/example/img/3.png') !important;
+	background: url('https://trietdang.github.io/interactive1/extension/example/img/3-02.png') !important;
 }
 
 .sponsored_post {
-	background: url('https://trietdang.github.io/interactive1/extension/example/img/3.png') !important;
+	background: url('https://trietdang.github.io/interactive1/extension/example/img/3-02.png') !important;
 }
 
-.post_media_photo
+.standalone-ad-container text, .sponsored_post text {
+	opacity: 0 !important;
+}
+
+/*.post_body {
+	opacity: 0 !important;
+}*/
+
+.sponsored_post video, .sponsored_post img, .sponsored_post text {
+	opacity: 0 !important;
+}
 
 .standalone-ad-container {
     -webkit-font-smoothing: antialiased;
