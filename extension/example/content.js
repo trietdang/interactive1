@@ -26,7 +26,6 @@ $('.sidebar-ad-content').each(function(){
 
 
 
-
 $('.standalone-ad-container').css('background', 'red');
 
 $('.sponsored_post').css('background', 'blue');
