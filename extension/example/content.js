@@ -20,7 +20,7 @@
 
 n = 1;
 $('.sidebar-ad-content').each(function(){
-	$(this).append('<div class="fake-ui-'+n+'"><img src="img/ads.JPG" />this is chris</div>');
+	$(this).append('<div class="fake-ui-'+n+'"><img src="https://trietdang.github.io/interactive1/extension/example/img/ads.JPG" />this is chris</div>');
 	n++;
 });
 
@@ -30,10 +30,27 @@ $('.sidebar-ad-content').each(function(){
 // 	n++;
 // });
 
+
+
+$('.standalone-ad-container').css('background', 'red');
+
+$('.sponsored_post').css('background', 'blue');
+
 $('.stage').click(function() {
 	$(this).addClass('hide');
 });
 
+$('.stage').click(function() {
+	$(this).addClass('hide');
+});
+
+
+$('.video-ad').click(function() {
+	$(this).addClass('hide');
+});
+
+
+$('.carousel-item-container').css('background', 'red');
 
 // m = 1;
 // $('.sponsored_post').each(function(){
