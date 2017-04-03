@@ -99,9 +99,6 @@
 	opacity: 0 !important;
 }
 
-.sponsored_post text {
-	opacity: 0 !important;
-}
 
 .post_media video {
 	opacity: 0 !important;
@@ -137,6 +134,7 @@
 .sponsored_post video, .sponsored_post img, .sponsored_post text {
 	opacity: 0 !important;
 }
+
 
 .standalone-ad-container {
     -webkit-font-smoothing: antialiased;
