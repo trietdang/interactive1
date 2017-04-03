@@ -1,0 +1,34 @@
+body {
+    background-color: blue;
+}
+
+h1{
+  font-family: 'Telegrafico', sans-serif;
+  font-size: 24px;
+  margin: .2em .0em;
+  color: rgba(0,0,0, 0.3);
+}
+body {
+    height: 100%;
+}
+
+
+body {
+    color: white;
+}
+
+h1 {
+    color: Red;
+}
+
+p {
+    color: white;
+}
+
+div {
+    color: blue;
+}
+
+a {
+    color: yellow;
+}
