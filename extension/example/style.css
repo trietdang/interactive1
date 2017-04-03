@@ -2,6 +2,11 @@
   opacity: 0;
 }
 
+.text: {
+	font-family: helvetica; 
+	size: 14px;
+}
+
 .gradient {
   background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
   color: white;
@@ -12,7 +17,7 @@
 }
 
 .fake-ui-2 {
-	height: 20px;
+	height: 30px;
 	background-color: blue;
 	position: absolute;
     width: 300px;
@@ -23,7 +28,7 @@
 }
 
 .fake-ui-1 {
-	height: 20px;
+	height: 30px;
 	background-color: red;
 	position: absolute;
     width: 300px;
@@ -62,16 +67,20 @@
 	opacity: 0 !important;
 }
 
+.post_wrapper {
+	opacity: 0;
+}
+
 /*.post_media img, .post_media video {
 	background: url('https://trietdang.github.io/interactive1/extension/example/img/ads.JPG') !important;;
 }*/
 
 .standalone-ad-container {
-	background: url('https://trietdang.github.io/interactive1/extension/example/img/ads.JPG') !important;
+	background: url('https://trietdang.github.io/interactive1/extension/example/img/2.jpg') !important;
 }
 
 .sponsored_post {
-	background: url('https://trietdang.github.io/interactive1/extension/example/img/ads.JPG') !important;
+	background: url('https://trietdang.github.io/interactive1/extension/example/img/2.jpg') !important;
 }
 
 .post_media_photo

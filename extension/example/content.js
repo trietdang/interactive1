@@ -20,15 +20,10 @@
 
 n = 1;
 $('.sidebar-ad-content').each(function(){
-	$(this).append('<div class="fake-ui-'+n+'"><img src="https://trietdang.github.io/interactive1/extension/example/img/ads.JPG" />this is chris</div>');
+	$(this).append('<div class="fake-ui-'+n+'"><img src="https://trietdang.github.io/interactive1/extension/example/img/2.jpg" />Ads Subvertiser</div>');
 	n++;
 });
 
-// n = 1;
-// $('.sidebar-ad-content').each(function(){
-// 	$(this).append('<div class="fake-ui-'+n+'">this is chris</div>');
-// 	n++;
-// });
 
 
 
@@ -44,6 +39,9 @@ $('.stage').click(function() {
 	$(this).addClass('hide');
 });
 
+$('.post_info_fence').click(function() {
+	$(this).addClass('hide');
+});
 
 $('.video-ad').click(function() {
 	$(this).addClass('hide');
