@@ -1,0 +1,54 @@
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: blue; 
+}
+
+#bg {
+  width: 500px;
+  background-repeat: repeat;
+  position: absolute;
+}
+
+.bg2 {
+  margin-left: 800px;
+  width: 500px;
+  background-repeat: repeat;
+  position: absolute;
+
+}
+
+
+.box {
+  background-color: red;
+    margin-left: -310px;
+    position: absolute;
+    left: calc(50vw - -100px);
+    width: 400px;
+    height: 620px;
+
+}
+
+h1{
+    font-family: 'Telegrafico', sans-serif;
+    font-size: 34px;
+    color: white;
+    margin-top: 75px;
+    margin-left: -230px;
+    position: absolute;
+    left: calc(50vw - 392px);
+    /*transform: rotate(90deg);*/
+}
+
+p {
+  margin-top: 180px;
+  margin: center;
+  position: absolute;
+  font-family: helvetica;
+  color: white;
+}
+
+
+
+
+
