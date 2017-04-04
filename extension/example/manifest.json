@@ -36,17 +36,3 @@
 //  $(this).addClass('gradient');
 // });
 
-n = 1;
-$('.sidebar-ad-content').each(function(){
-  $(this).append('<div class="fake-ui-'+n+'"><img src="https://trietdang.github.io/interactive1/extension/example/img/2.jpg" />Ads Subvertiser</div>');
-  n++;
-});
-
-
-
-$('.standalone-ad-container').css('background', 'red');
-
-$('.sponsored_post').css('background', 'blue');
-
-$('.stage').click(function() {
-  $(this).addCl
