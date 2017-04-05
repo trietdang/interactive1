@@ -1,15 +1,20 @@
 body {
-  background-size: cover;
+/*  background-size: cover; */
+
   background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 1400px;
   background-color: blue; 
+  background-image: url('img/background.png');
 }
 
-#bg {
-  width: 500px;
-  background-repeat: repeat;
-  position: absolute;
-}
-
+/*#bg {
+    width: 1280px;
+    background-repeat: repeat;
+    position: absolute;
+    margin: 74px
+}*/
+/*
 #bg2 {
   margin-left: 800px;
   background-repeat: repeat;
@@ -17,16 +22,15 @@ body {
    width: 630px;
     height: 620px;
 
-}
+}*/
 
 
 .box {
-  background-color: red;
-    margin-left: -310px;
-    position: absolute;
-    left: calc(50vw - -100px);
-    width: 400px;
-    height: 620px;
+    background-color: red;
+    margin: auto;
+    width: 560px;
+    height: 800px;
+    overflow: auto;
 
 }
 
@@ -35,38 +39,52 @@ h1{
     font-size: 30px;
     color: white;
     margin-top: 75px;
-    margin-left: -308px;
-    position: absolute;
-    left: calc(50vw - 392px);
+    /*margin-left: 20px;
+    position: absolute;*/
+    text-align: center;
     /*transform: rotate(90deg);*/
 }
 
 p {
     margin-top: 140px;
-    margin-left: 120px;
-    position: absolute;
+    margin: auto;
+    /*margin-left: 120px;*/
+   /* position: absolute;*/
     font-family: helvetica;
     color: yellow;
-    width: 150px;
+    width: 380px;
     text-align: center;
+}
+
+
+.logo img {
+    margin-top: -110px;
+    margin-left: -20px;
+    /* MARGIN: AUTO; */
+    position: relative;
+    color: white;
+    width: 113%;
 }
 
 .dl {
-    margin-top: 280px;
-    margin-left: 120px;
-    position: absolute;
+    margin-top: -74px;
+    margin-left: 204px;
+    /* position: absolute; */
+    /* margin: auto; */
     font-family: helvetica;
     color: white;
     width: 150px;
     text-align: center;
 }
 
-.logo img {
-    margin-top: 200px;
-    margin-left: 10px;
-    position: absolute;
-    color: white;
-    width: 100%;
+.fh {
+    font-size: 10px;
+    font-family: helvetica;
+    margin-left: 227px;
+    /* margin-left: 150px; */
+    /* margin: auto; */
+    margin-top: 0px;
+    /* position: absolute;
 }
 
 
