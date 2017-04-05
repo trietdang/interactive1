@@ -58,16 +58,16 @@ p {
 
 
 .logo img {
-    margin-top: -110px;
-    margin-left: -20px;
+    margin-top: -20px;
+    margin-left: 150px;
     /* MARGIN: AUTO; */
     position: relative;
     color: white;
-    width: 113%;
+    width: 63%;
 }
 
 .dl {
-    margin-top: -74px;
+    margin-top: 74px;
     margin-left: 204px;
     /* position: absolute; */
     /* margin: auto; */
