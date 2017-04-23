@@ -20,7 +20,7 @@
 
 n = 1;
 $('.sidebar-ad-content').each(function(){
-	$(this).append('<div class="fake-ui-'+n+'"><img src="https://trietdang.github.io/interactive1/extension/example/img/2.jpg" />Ads Subvertiser</div>');
+	$(this).append('<div class="fake-ui-'+n+'"><img src="https://trietdang.github.io/interactive1/extension/extension/img/2.jpg" />Ads Subvertiser</div>');
 	n++;
 });
 
