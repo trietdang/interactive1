@@ -17,29 +17,7 @@
 	<p>This project was inspired when I saw a friend of mine tried to unlock his window laptop by using the webcam feature to read his face instead of using type password. My question is what if someone tries to access to your laptop or your personal devices, such as smartphone and tablet, to steal your private informations by scanning your face while you are sleeping? or using you photo or video to access to your private information. To avoid the facial recognition of computer and smartphone, in this project, I design a website where you can design your own identity facial which nobody would know. Have fun! </p>
 </div>
 
-<div id="container">
-    <video autoplay="true" id="videoElement">
-     
-    </video>
-</div>
 
-<script>
-var video = document.querySelector("#videoElement");
- 
-navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
- 
-if (navigator.getUserMedia) {       
-    navigator.getUserMedia({video: true}, handleVideo, videoError);
-}
- 
-function handleVideo(stream) {
-    video.src = window.URL.createObjectURL(stream);
-}
- 
-function videoError(e) {
-    // do something
-}
-</script> 
 
 
 
