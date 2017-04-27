@@ -5,7 +5,7 @@ var video = document.querySelector("#videoElement");
 navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
  
 if (navigator.getUserMedia) {       
-    navigator.getUserMedia({video: true}, handleVideo, videoError);
+    navigator.getUserMedia({video: false}, handleVideo, videoError);
 }
  
 function handleVideo(stream) {
@@ -15,6 +15,7 @@ function handleVideo(stream) {
 function videoError(e) {
     // do something
 }
+
 	
 	// add .draggable to any element you want to enable dragging on
 	$('.drag').draggable();
