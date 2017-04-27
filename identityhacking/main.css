@@ -4,15 +4,24 @@ body {
 }
 
 #ph {
-    transform: rotate(90deg);
-    position: fixed;
-    margin-top: 310px;
-    margin-left: -160px;
+    
+    position: fixed; 
     font-size: 20px;
     font-family: 'Telegrafico', sans-serif;;
     color: white;
-    text-orientation: 
+    animation: mymove 3s;
+    animation-fill-mode: forwards;
 }
+
+@keyframes mymove {
+    0%{margin-top: 0;left: 35%;}
+    30%{left: 0%;}
+    35%{margin-top: 0px;transform: rotate(-90deg)}
+    100%{transform: rotate(-90deg);margin-top: 310px;
+    margin-left: -160px;}
+}
+
+
 
 p {
 	font-family: courier;
@@ -23,6 +32,18 @@ p {
     margin-left: 300px;
     width: 700px;
     text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Telegrafico', sans-serif;;
+    margin-top: 690px;
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    margin-left: 390px;
+    width: 700px;
+
 }
 
 #photo1 {
