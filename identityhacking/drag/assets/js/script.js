@@ -1,9 +1,26 @@
 $(document).ready(function(){
+
+var video = document.querySelector("#videoElement");
+ 
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+ 
+if (navigator.getUserMedia) {       
+    navigator.getUserMedia({video: true}, handleVideo, videoError);
+}
+ 
+function handleVideo(stream) {
+    video.src = window.URL.createObjectURL(stream);
+}
+ 
+function videoError(e) {
+    // do something
+}
+	
 	// add .draggable to any element you want to enable dragging on
 	$('.drag').draggable();
 
-	$('.right').each(function(){
-		$height = $('window').height();
+	$('.right img').each(function(){
+		$height = $(window).height();
 		$right = Math.floor(Math.random()*255);
 		$top = Math.floor(Math.random()*$height);
 		$(this).css('top',$top);
