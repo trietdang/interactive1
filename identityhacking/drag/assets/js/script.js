@@ -15,11 +15,11 @@ $(document).ready(function(){
 
 	$( "#draggable2").draggable();
 
-	$('.left').each(function(){
+	$('.left img').each(function(){
 
-			$height = $('window').height();
+			$height = $(window).height();
 			$left = Math.floor(Math.random()*255);
-			$top = Math.floor(Math.random()*255);
+			$top = Math.floor(Math.random()*$height);
 			$(this).css('top',$top);
 			$(this).css('left',$left);
 
