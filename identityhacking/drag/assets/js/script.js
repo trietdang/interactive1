@@ -20,6 +20,10 @@ $('#turnoff').click(function(){
 	$('#videoElement').fadeOut();
 });
 
+$('#turnon').click(function(){
+	$('#videoElement').fadeIn();
+});
+
 	
 	// add .draggable to any element you want to enable dragging on
 	$('.drag').draggable();
