@@ -16,9 +16,14 @@ function videoError(e) {
     // do something
 }
 
+$('#turnoff').click(function(){
+	$('#videoElement').fadeOut();
+});
+
 	
 	// add .draggable to any element you want to enable dragging on
 	$('.drag').draggable();
+	$('.resize').resizable();
 
 	$('.right img').each(function(){
 		$height = $(window).height();
