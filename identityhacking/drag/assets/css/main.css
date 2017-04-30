@@ -17,7 +17,7 @@ body {height: 100vh; width: 100vw;}
 }
 
 #draggable, #draggable2 { 
-	width: 150px; 
+	width: 439px; 
 	height: 150px; 
 	padding: 0.5em; 
 	position: absolute;
@@ -25,9 +25,6 @@ body {height: 100vh; width: 100vw;}
 	/*background: pink;*/
 }
 
-#draggable2 .e1 {
-	width: 200px;
-}
 
 /*#draggable2 { 
 	width: 100%; 
@@ -44,6 +41,8 @@ body {height: 100vh; width: 100vw;}
 img {
 	width: 200px;
 	position: absolute;
+	resize: both;
+    overflow: auto;
 }
 
 
