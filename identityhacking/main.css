@@ -3,15 +3,16 @@ body {
 	background-color: blue;
 }
 
-#ph {
+/*#ph {
     transform: rotate(90deg);
     position: fixed;
     margin-top: 330px;
     margin-left: -150px;
     font-size: 20px;
-    font-family: 'Telegrafico', sans-serif;;
+    font-family: courier;;
     color: white;
-}
+    z-index: 1000;
+}*/
 
 p {
     font-family: courier;
@@ -19,7 +20,7 @@ p {
     font-size: 21px;
     color: white;
     position: absolute;
-    margin-left: 320px;
+    margin-left: 300px;
     margin-right: 330px;
     width: inherit;
     text-align: left;

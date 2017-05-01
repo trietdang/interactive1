@@ -22,7 +22,7 @@ body {
 }
 
 #draggable, #draggable2 { 
-	width: 439px; 
+	width: 1447px; 
 	height: 150px; 
 	padding: 0.5em; 
 	position: absolute;
@@ -51,7 +51,67 @@ img {
 }
 
 
-img #image-1 {
+#m1 {
+	width: 300px;
+	height: auto;
+}
+
+#n2 {
+	width: 400px;
+	height: auto;
+}
+
+#n6 {
+	width: 400px;
+	height: auto;
+}
+
+#n7 {
+	width: 400px;
+	height: auto;
+}
+
+#e1, #e2, #e4, #e7 {
+	width: 350px;
+	height: auto;
+}
+
+#e3 {
+	width: 400px;
+	height: auto;
+}
+
+#e5 {
+	width: 350px;
+	height: auto;
+}
+
+#e6 {
+	width: 400px;
+	height: auto;
+}
+
+#m2 {
+	width: 300px;
+	height: auto;
+}
+
+#m3 {
+	width: 300px;
+	height: auto;
+}
+
+#m4 {
+	width: 300px;
+	height: auto;
+}
+
+#m6 {
+	width: 300px;
+	height: auto;
+}
+
+#m7 {
 	width: 300px;
 	height: auto;
 }
