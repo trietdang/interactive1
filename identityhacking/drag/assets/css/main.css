@@ -30,6 +30,14 @@ body {
 	/*background: pink;*/
 }
 
+#draggable2 {
+	width: 1447px; 
+	height: 150px; 
+	padding: 0.5em; 
+	position: absolute;
+	z-index: 10;	
+}
+
 
 /*#draggable2 { 
 	width: 100%; 
@@ -119,6 +127,7 @@ img {
 #turnon {
 	position: absolute;
     right: 50px;
+    z-index: 11;
 }
 
 #turnoff {
